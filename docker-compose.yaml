@@ -1,0 +1,8 @@
+frontend:
+  build: .
+  command: node server/server.js
+  environment:
+    - REACT_APP_BACKEND_URL=http://pygradus.kiedanski.com:8000
+    - REACT_APP_NODE_ENV=production
+  ports:
+    - "3000:3000"
