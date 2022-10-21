@@ -7,4 +7,4 @@ services:
         - REACT_APP_BACKEND_URL=http://pygradus.kiedanski.com:8000
     command: node server/server.js
     ports:
-      - 3000:3000
+      - 80:3000
